@@ -1,0 +1,41 @@
+body{
+    background: rgb(100,153,233);
+background: linear-gradient(90deg, rgba(100,153,233,1) 13%, rgba(166,246,255,1) 97%);
+}
+.text {
+  background-color: bisque;
+  color: red;
+  border: 5px solid black;
+  font-family: cursive;
+  padding: 15px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.submit {
+  padding: 1rem;
+  background-color: rgb(22, 21, 21);
+  color: aqua;
+  border-radius: 10px;
+}
+.submit:hover,.submit:active {
+  background-color: aqua;
+  color: black;
+}
+#counter{
+    color: rgb(134, 78, 5);
+    background-color: aqua;
+    width: auto;
+    max-width: 120px;
+    padding: 15px;
+    text-align: center;
+}
+#counter:hover,#counter:active{
+    border-bottom: 5px solid rgb(235, 4, 4);
+    transition: 0.4s;
+}
+ul{
+    list-style: none;
+}
+li{
+    color: blue;
+}
